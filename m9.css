@@ -1,0 +1,67 @@
+.s1 {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.s1 img {
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #e9ac51;
+    transition: width 2s, height 2s, transform 2s;
+   
+}
+
+
+.hello {
+    background-image: url("haha/skin1.webp");
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+}
+
+.hello h1 {
+    color:#e9ac51 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+background-color: wheat;
+border-radius: 25px;
+padding: 0px 10px 0px 10px;
+
+
+
+
+
+
+}
+
+.hello h2 {
+    color: #aed6f1 ;
+    font-style: italic;
+border-radius: 25px;
+padding: 0px 10px 0px 10px;
+}
+
+.hello button {
+    display: flex;
+align-items: center;    background-color: #aed6f1;
+    border-radius: 15px;
+    border: 0px;
+    padding: 5px 25px;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.hello button:hover {
+    color: #e9ac51;
+}
+
+
+.info00 {
+    display: flex;
+    align-content: center;
+color: #e9ac51;
+}
